@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #fffdf8;
+  color: #3f2a14;
+}
+
+.login {
+  width: 360px;
+  margin: 120px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(212, 175, 55, 0.25);
+  text-align: center;
+}
+
+.login h2 {
+  color: #5a1025;
+}
+
+.login input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 12px;
+  border: 1px solid #e6c97a;
+}
+
+.login button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #d4af37, #b8962e);
+  color: white;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+}
+
+.login span {
+  margin-top: 12px;
+  display: inline-block;
+  color: #5a1025;
+  cursor: pointer;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+aside {
+  width: 250px;
+  background: linear-gradient(180deg, #5a1025, #3b0717);
+  padding: 28px;
+}
+
+aside h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  font-weight: 600;
+  color: #f4e6c5;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+aside p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #e6cfd6;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+aside p:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+main {
+  flex: 1;
+  padding: 32px;
+  background: #fffdf8;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.top input {
+  width: 360px;
+  padding: 12px;
+  border-radius: 14px;
+  border: 1px solid #e6c97a;
+}
+
+.top button {
+  background: linear-gradient(135deg, #d4af37, #b8962e);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 12px;
+}
+
+.banner {
+  height: 190px;
+  border-radius: 24px;
+  margin-bottom: 34px;
+  background-image:
+    url("./assets/banner1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 36px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #5c4308;
+  letter-spacing: 0.5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 22px;
+  box-shadow: 0 18px 40px rgba(212, 175, 55, 0.25);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.card h3 {
+  color: #7a5c1b;
+  margin: 14px 0 6px;
+}
+
+.card p {
+  color: #166534;
+  font-weight: 600;
+}
+
+.card span {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.card button {
+  margin-top: 12px;
+  width: 100%;
+  background: linear-gradient(135deg, #d4af37, #b8962e);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.box {
+  background: white;
+  padding: 28px;
+  border-radius: 22px;
+  box-shadow: 0 18px 40px rgba(212, 175, 55, 0.25);
+}
+
+.box h2 {
+  color: #5a1025;
+}
+.profile {
+  max-width: 420px;
+}
+
+.profile-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #5a1025;
+  font-size: 16px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item img {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.cart-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.premium {
+  background: linear-gradient(135deg, #d4af37, #b8962e);
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 14px;
+  border-radius: 16px;
+  border: none;
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: 0 10px 30px rgba(212,175,55,0.35);
+}
+
+.premium:hover {
+  transform: translateY(-2px);
+}
